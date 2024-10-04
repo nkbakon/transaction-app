@@ -13,7 +13,7 @@
 
     </head>
     <body>
-        <div class="min-w-screen min-h-screen bg-gradient-to-r from-blue-400 to-purple-100 flex items-center justify-center px-5 py-5">
+        <div class="min-w-screen min-h-screen bg-gradient-to-r from-gray-800 to-gray-400 flex items-center justify-center px-5 py-5">
             <div class="bg-gray-100 text-gray-500 rounded-3xl shadow-xl w-full overflow-hidden" style="max-width:1000px">
                 <div class="md:flex w-full">
                     <div class="hidden md:flex w-1/2 bg-white py-10 px-10 justify-center">
@@ -75,7 +75,7 @@
                                 @error('password') <span class="text-red-500 error mb-2">{{ $message }}</span><br> @enderror
                                 <div class="flex -mx-3 mt-4">
                                     <div class="w-full px-3 mb-5">
-                                        <button type="submit" class="disabled:opacity-25 block w-full max-w-xs mx-auto bg-blue-800 hover:bg-blue-900 focus:bg-blue-800 text-white rounded-lg px-3 py-3 font-semibold">SIGN IN</button>
+                                        <button type="submit" class="disabled:opacity-25 block w-full max-w-xs mx-auto bg-gray-800 hover:bg-gray-900 focus:bg-gray-800 text-white rounded-lg px-3 py-3 font-semibold">SIGN IN</button>
                                     </div>
                                 </div>
                             </div>

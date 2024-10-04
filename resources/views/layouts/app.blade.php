@@ -34,31 +34,31 @@
                                 </div>
                             </li></a>
                             <a class="{{ (request()->segment(1) == 'dashboard') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('dashboard') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/home.svg') }}" alt="Home Icon" class="w-5 h-5">  
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Dashboard</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'transactions') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('transactions.index') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/fee.svg') }}" alt="Transaction Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Transactions</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'profile') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('profile.index') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/profile.svg') }}" alt="Profile Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Profile</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'users') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('users.index') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/users.svg') }}" alt="Users Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Users</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'logout') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('logout') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/logout.svg') }}" alt="Log Out Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Log Out</span>
@@ -93,31 +93,31 @@
                                 </div>
                             </li></a>
                             <a class="{{ (request()->segment(1) == 'dashboard') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('dashboard') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/home.svg') }}" alt="Home Icon" class="w-5 h-5">  
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Dashboard</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'transactions') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('transactions.index') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/fee.svg') }}" alt="Transaction Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Transactions</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'profile') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('profile.index') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/profile.svg') }}" alt="Profile Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Profile</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'users') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('users.index') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/users.svg') }}" alt="Users Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Users</span>
                             </a>
                             <a class="{{ (request()->segment(1) == 'logout') ? 'bg-white border-white': '' }} mt-4 py-2 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-gray-200 px-4 font-semibold text-slate-700 transition-colors" href="{{ route('logout') }}">
-                                <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                                <div class="bg-gradient-to-tl from-gray-800 to-gray-400 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                                     <img src="{{ asset('assets/logout.svg') }}" alt="Log Out Icon" class="w-5 h-5">   
                                 </div>
                                 <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Log Out</span>

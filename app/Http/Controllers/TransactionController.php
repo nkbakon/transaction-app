@@ -13,7 +13,7 @@ class TransactionController extends Controller
 {
     public function index()
     {
-        $transactions = Transaction::paginate(25);
+        $transactions = Transaction::orderBy('id', 'desc')->paginate(25);
         return view('transactions.index', compact('transactions'));
     }
 
